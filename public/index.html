@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SkillClarity — one skill, chosen for you, backed by real demand</title>
+<meta name="description" content="A short conversation, live demand research, and one committed skill recommendation for young people in Nigeria and across Africa." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%230C1622'/><path d='M16 6 L19 18 L16 26 L13 18 Z' fill='%23E7A33C'/></svg>" />
+</head>
+<body>
+<a class="skip" href="#register">Skip to registration</a>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="#top">
+      <svg class="wordmark-dial" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.5" /><path d="M12 3.5 L14 12 L12 20.5 L10 12 Z" /></svg>
+      <span>Skill<em>Clarity</em></span>
+    </a>
+    <a class="btn btn-ghost nav-cta" href="#register">Start my skill report</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">For young people in Nigeria &amp; across Africa</p>
+        <h1>Stop guessing <em>what skill</em> to learn.</h1>
+        <p class="lede">Answer a few questions about how you actually work, we check what is being hired and paid for right now, and you get one skill to commit to — not a list to agonise over.</p>
+
+        <form class="capture" id="form-hero" novalidate>
+          <label class="capture-label" for="email-hero">Your email</label>
+          <div class="capture-row">
+            <input id="email-hero" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required />
+            <button class="btn btn-solid" type="submit">Start my skill report</button>
+          </div>
+          <p class="capture-note">First question arrives by email. No course to buy, nothing to install.</p>
+          <p class="capture-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="hero-dial">
+        <div class="dial" id="dial" aria-hidden="true">
+          <svg viewBox="0 0 320 320" class="dial-svg">
+            <defs>
+              <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#E7A33C" stop-opacity="0.85" />
+                <stop offset="100%" stop-color="#E7A33C" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <circle class="ring ring-outer" cx="160" cy="160" r="148" />
+            <circle class="ring ring-mid" cx="160" cy="160" r="112" />
+            <circle class="ring ring-inner" cx="160" cy="160" r="74" />
+            <g class="ticks" id="ticks"></g>
+            <g class="needle" id="needle">
+              <path class="needle-blade" d="M160 26 L168 74 L160 90 L152 74 Z" />
+              <path class="needle-tail" d="M160 294 L155 246 L165 246 Z" />
+            </g>
+          </svg>
+          <ul class="orbit" id="orbit">
+            <li style="--a:-64deg" data-r="1">Graphic design</li>
+            <li style="--a:-18deg" data-r="2">Video editing</li>
+            <li style="--a:24deg" data-r="1">Copywriting</li>
+            <li style="--a:70deg" data-r="2">Forex</li>
+            <li style="--a:118deg" data-r="1">UI/UX</li>
+            <li style="--a:163deg" data-r="2">Python</li>
+            <li style="--a:206deg" data-r="1">Dropshipping</li>
+            <li style="--a:252deg" data-r="2">Data analysis</li>
+          </ul>
+          <div class="dial-result" id="dial-result">
+            <span class="dial-result-label">Your skill</span>
+            <strong>Data analysis</strong>
+            <span class="dial-result-meta">SQL + spreadsheets first</span>
+          </div>
+        </div>
+        <p class="dial-caption">Eight tabs open, one answer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="problem">
+    <div class="wrap problem-grid">
+      <h2>You have already tried.</h2>
+      <div class="problem-body">
+        <p>You watched the “learn this skill in 30 days” video. You bought the ₦15,000 course, finished module three, and stopped. Someone in a WhatsApp group swore forex was it. Your cousin said tech. A thread said learn AI or be left behind.</p>
+        <p>Nothing stuck, and it was never a discipline problem. You were choosing between opinions, none of which knew anything about you or about who is actually hiring this month.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="wrap">
+      <h2 class="section-head">How your report gets made</h2>
+      <ol class="step-list">
+        <li>
+          <span class="step-index">Step one</span>
+          <h3>A short conversation</h3>
+          <p>Eight to ten questions about how you work, what you can stand doing for six months, your data and device situation, and how soon you need money.</p>
+        </li>
+        <li>
+          <span class="step-index">Step two</span>
+          <h3>Real demand research</h3>
+          <p>We check live listings and gig boards — Nigerian employers, African remote roles, and clients hiring from abroad — to see what is being paid for right now, at your level.</p>
+        </li>
+        <li>
+          <span class="step-index">Step three</span>
+          <h3>One committed recommendation</h3>
+          <p>You get a single skill, the reasoning behind it, the evidence, and what to do this week. Two backups are named, but they stay in the back seat.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sample">
+    <div class="wrap sample-grid">
+      <div class="sample-intro">
+        <h2 class="section-head">What lands in your inbox</h2>
+        <p>Every report is specific enough to act on the same day, and honest about what could go wrong. Here is one written for a fictional person so you know what you are signing up for.</p>
+      </div>
+
+      <article class="report" aria-label="Sample skill report">
+        <div class="report-tape">Sample — not your result</div>
+        <header class="report-head">
+          <p class="report-for">Prepared for <strong>Chidinma A.</strong> · Enugu · 21</p>
+          <h3 class="report-skill">Data analysis</h3>
+          <p class="report-sub">SQL and spreadsheets first. Not Python, not yet.</p>
+        </header>
+
+        <dl class="report-fields">
+          <div>
+            <dt>Why it fits you</dt>
+            <dd>You said you enjoy finding the mistake in a messy list and you would rather work alone with clear instructions. Analysis rewards exactly that, and it does not need you to post your face online to get clients.</dd>
+          </div>
+          <div>
+            <dt>Demand evidence</dt>
+            <dd>
+              <ul class="evidence">
+                <li><span class="num">142</span> openings mentioning SQL or Excel reporting across Nigerian job boards in the last 30 days</li>
+                <li><span class="num">₦250k–₦600k</span> typical monthly range at junior level in Lagos and Abuja postings</li>
+                <li><span class="num">31</span> of those were remote-friendly for candidates outside those cities</li>
+              </ul>
+            </dd>
+          </div>
+          <div>
+            <dt>First step this week</dt>
+            <dd>Rebuild your church or shop's record book as one clean spreadsheet with a pivot summary, then write 150 words on what the numbers say. That artefact becomes portfolio item one.</dd>
+          </div>
+          <div>
+            <dt>Backups, in order</dt>
+            <dd><span class="chip">Bookkeeping &amp; payroll admin</span><span class="chip">Technical support</span></dd>
+          </div>
+          <div class="report-risk">
+            <dt>What could go wrong</dt>
+            <dd>Junior analysis roles are crowded at the entry gate, and the first three months are unpaid practice. If you need income within eight weeks, tell us and we will re-run this — the honest answer may be a smaller skill first.</dd>
+          </div>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section class="register" id="register">
+    <div class="wrap register-inner">
+      <h2>Your report starts with one question.</h2>
+      <p>We are onboarding a small first group by hand, so places are limited and every report is read before it is sent.</p>
+      <form class="capture capture-lg" id="form-footer" novalidate>
+        <label class="capture-label" for="email-footer">Your email</label>
+        <div class="capture-row">
+          <input id="email-footer" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required />
+          <button class="btn btn-solid" type="submit">Start my skill report</button>
+        </div>
+        <p class="capture-note">One email to begin. You can stop at any question.</p>
+        <p class="capture-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p>A project by Yusuf Media.</p>
+    <p><a href="mailto:hello@skillclarity.africa">hello@skillclarity.africa</a></p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
