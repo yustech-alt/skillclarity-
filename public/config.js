@@ -5,8 +5,8 @@ window.SKILLCLARITY_CONFIG = {
    *  - "formspree": set formspreeId below (https://formspree.io -> New form -> copy the id in the endpoint URL)
    *  - "local":     posts to the bundled Node server in ../server (writes data/signups.jsonl)
    */
-  submitMode: "local",
-  formspreeId: "REPLACE_WITH_FORMSPREE_ID",
+  submitMode: "formspree",
+  formspreeId: "xljdwavg",
   localEndpoint: "/api/signup",
 
   /* Analytics. Leave plausibleDomain empty to use only the built-in counter. */
